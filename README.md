@@ -1,29 +1,41 @@
-<h1 align="center">
-  <a href="https://starrybodies.com/studio">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/starrybodies/starrybodies/main/assets/celestial-night.jpg">
-      <img src="./assets/celestial-dawn.jpg" alt="Starry Bodies, an astrology studio by Samu. Selene and Apollo reach across the sky." width="100%">
-    </picture>
-  </a>
-</h1>
+<a href="https://samu.quest/world/">
+  <picture>
+    <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/starrybodies/starrybodies/main/assets/samu-island-mobile.jpg">
+    <source media="(prefers-reduced-motion: no-preference)" srcset="https://raw.githubusercontent.com/starrybodies/starrybodies/main/assets/samu-island.webp">
+    <img src="./assets/samu-island.jpg" width="100%" alt="Samu Barnes, founder and developer. Enter the playable island on my portfolio.">
+  </picture>
+</a>
 
-A birth chart holds a moment still. Astrocartography takes that same moment around the Earth. I built Starry Bodies so you can move between the two, compare charts with someone you love, and see where today’s sky meets your own.
+# I build AI for planetary flourishing.
 
-**[Make your birth chart](https://starrybodies.com/studio#birth-heading)** · [See today’s sky](https://starrybodies.com/today) · [Compare two charts](https://starrybodies.com/synastry)
+I’m Samu Barnes. I cofounded [Symbiocene](https://symbiocene.si/) with Shawn Anderson and Darren Zal. We build ecological models for people making decisions about land and water. In our [Gowanus study](https://symbiocene.si/sims/gowanus/), you can replay Hurricane Ida over a Brooklyn block, add rain gardens and green roofs, and see how much runoff reaches the canal.
 
-## The sky above Greenwich
+I also founded [Symbai Studio](https://symbai.studio/), where I design and build software with clients. I built Symbai Center to run the studio itself, from tracking a new lead to seeing which campaigns bring people in.
 
-At noon UTC on 1 January 2000, the Sun was at 10°22′ Capricorn. It was crossing the local meridian just east of Greenwich. At that same instant, the Moon was crossing the meridian near Buenos Aires. Those two meridians are the gold and blue lines on the map.
+## Recent builds
 
-[![The Greenwich chart beside a world map. The Sun’s Midheaven line is at 0.82° east and the Moon’s at 58.01° west. Both are calculated for 1 January 2000 at 12:00 UTC.](./assets/greenwich-chart-and-map.jpg)](./assets/greenwich-chart-and-map.jpg)
+### Reword
 
-To recreate it, enter **1 January 2000**, **12:00 p.m.**, **Greenwich, London, UK** in the studio. Choose the tropical zodiac and whole-sign houses, then switch from **Chart** to **Places**. [Read the illustrated map guide](https://starrybodies.com/learn/read-an-astrocartography-map).
+I write differently in a group chat than I do in a letter. Reword gives Claude Code and Codex a private voice guide built from writing you choose and corrections you want to keep. You can [switch one launch note between text, LinkedIn, and email](https://reword.symbai.studio/#demo-title), or [read the Python source](https://github.com/starrybodies/reword).
 
-## More from Samu
+```sh
+npx skills add starrybodies/reword
+```
 
-| Project | What you can try |
-| --- | --- |
-| [Reword](https://github.com/starrybodies/reword) | Give your coding agent a few pieces you’ve written and teach it to edit in your voice. |
-| [Overshoot](https://github.com/starrybodies/overshoot) | Trace a material from extraction to use and open the source behind a point on the map. |
+### NOOG
 
-[My portfolio](https://samu.quest/) · [Starry Bodies](https://starrybodies.com/studio)
+A Chrome extension that can cover a gambling promo with a cat. The image classifier runs on your own device, captions are checked locally, and a click reveals the original. [Try NOOG](https://noog.symbai.studio/) · [Read the extension code](https://github.com/starrybodies/noog)
+
+### Treasury
+
+A transfer between two accounts can look like both income and spending. I built a household ledger that reconciles the two sides, tracks who earned a deposit, and splits shared costs. The private family edition runs in each household’s own hosting account.
+
+### spaace Bass School
+
+For bass practice, I built a drum sequencer, a wobble synth, and a spectrum analyzer that run in the browser. They sit alongside lessons for Ableton Live and Serum, so you can hear what a filter does while you learn to use it.
+
+---
+
+I studied environmental science and policy at Columbia, led community at Worldcoin, and led growth at Power Finance. These days I build on Salt Spring Island, BC.
+
+[My portfolio](https://samu.quest/) · [Professional experience](https://samu.quest/#work) · [Get in touch](mailto:hi@samu.quest)
